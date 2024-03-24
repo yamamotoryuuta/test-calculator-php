@@ -24,7 +24,23 @@ if (isset($_POST['num1']) && isset($_POST['num2']) && isset($_POST['operation'])
             }
             break;
     }
-    echo "結果: $result";
 }
-echo "<br><a href='index.php'>戻る</a>";
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+</head>
+<body class="App">
+    <div class="App-inner">
+        <p style="text-align: center;">結果</p>
+        <div class="display-block">
+            <p class="js-secondNum">
+                <?php echo $result; ?>
+            </p>
+        </div>
+        <p style="text-align: center;"><a href='index.php'>戻る</a></p>
+    </div>
+</body>
+</html>
