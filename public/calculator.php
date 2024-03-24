@@ -30,6 +30,7 @@ if (isset($_POST['num1']) && isset($_POST['num2']) && isset($_POST['operation'])
 <html>
 <head>
     <title>PHP Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./styles/reset.css">
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
 </head>
 <body class="App">
