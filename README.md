@@ -2,7 +2,7 @@
 
 ## PHP
 ローカルでPHPを使用する場合 <br>
-php -S localhost:8080 <br>
+php -S localhost:8080 -t public<br>
 
 ## Docker
 Dockerを使用する場合<br>

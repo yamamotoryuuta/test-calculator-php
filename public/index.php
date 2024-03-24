@@ -11,10 +11,7 @@
             <p class="js-firstNum">0</p>
             <p class="js-displayOperator display__operator">_</p>
             <p class="js-secondNum">0</p>
-            <!-- <p class="display__operator display__operator--active">=</p>
-            <p>0</p> -->
         </div>
-
 
         <div class="buttons-block">
           <div class="buttons-block__row is__number">
@@ -26,7 +23,6 @@
             }
             ?>
           </div>
-
 
           <div class="buttons-block__row is__op">
             <!-- リセットボタン -->
