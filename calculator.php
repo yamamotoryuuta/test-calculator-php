@@ -1,11 +1,9 @@
 <?php
-    echo "<br><a href='index.php'>戻る</a>";
-if (isset($_POST['submit'])) {
-    $num1 = $_POST['num1'];
-    $num2 = $_POST['num2'];
-    $operation = $_POST['operation'];
 
-    echo "num1: $num1, num2: $num2, operation: $operation<br>";
+if (isset($_POST['num1']) && isset($_POST['num2']) && isset($_POST['operation'])) {
+    $num1 = floatval($_POST['num1']);
+    $num2 = floatval($_POST['num2']);
+    $operation = $_POST['operation'];
 
     $result = '';
     switch ($operation) {
@@ -28,4 +26,5 @@ if (isset($_POST['submit'])) {
     }
     echo "結果: $result";
 }
+echo "<br><a href='index.php'>戻る</a>";
 ?>

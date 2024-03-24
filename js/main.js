@@ -100,10 +100,10 @@ function setOperator(op) {
   console.log('Get calcBtn and form');
 
   calcBtn.addEventListener('click', () => {
-    if (firstNum.textContent === '0' && operator.textContent === "_") {
+    if (firstNum.textContent === '0' || operator.textContent === "_") {
       alert('数値または、演算子を入力してください');
       return;
     }
-    document.querySelector('input[type="submit"]').click();
+    form.submit();
   });
 })();

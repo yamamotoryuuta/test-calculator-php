@@ -42,10 +42,9 @@
 
             <!-- =ボタン -->
             <button type="button" class="js-calcBtn answer"> = </button>
-            <input id="js-submitNum1" type="number" name='num1'>
-            <input id="js-submitNum2" type="number" name='num2'>
-            <input id="js-submitOp" type="hidden" name='operation'>
-            <input type="submit" name="submit" value="計算" />
+            <input id="js-submitNum1" type="number" name='num1' style="display: none;" value="0">
+            <input id="js-submitNum2" type="number" name='num2' style="display: none;" value="0">
+            <input id="js-submitOp" type="hidden" name='operation' value="_">
           </div>
         </div>
       </form>
